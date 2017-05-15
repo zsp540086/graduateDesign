@@ -1,0 +1,31 @@
+<?php defined('IN_PHPCMS') or exit('No permission resources.'); ?><div class="dh12"></div>
+<div class="dh12"></div>
+<!--bot-->
+<div class="bot">
+    <div class="w1004">
+        <div class="bot_logo"><img src="<?php echo IMG_PATH;?>/myimg/bot_logo.jpg" alt=""/></div>
+        <div class="bottom">
+            <p>版权所有：太原市晟琅博通企业管理咨询有限公司&nbsp<span style="line-height: 2">地址：太原市尖草坪区拥军路1号  </span></p>
+            <p>
+                <span style="line-height: 2">电话：0351-7236707&nbsp;13803400122 </span>
+                <span style="line-height: 2">QQ：450286272  </span>
+					<span style="line-height: 2">邮箱:	<span style="line-height: 2"><a href="">450286272@qq.com</a></span>
+						<span style="line-height: 2"></br></span>
+					</span>
+            </p>
+            <p>
+                技术支持:<a href=""><span>龙采科技</span></a>
+                <span>(</span>
+                <a href=""><span>山西网站建设</span></a>
+                <span>、</span>
+                <a href=""><span>山西百度推广</span></a>
+                <span>)</span>
+                晋ICP备09004733号
+                <span></span>
+            </p>
+        </div>
+    </div>
+</div>
+<!--bot-->
+</body>
+</html>

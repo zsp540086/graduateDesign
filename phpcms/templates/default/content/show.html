@@ -1,0 +1,38 @@
+{template "content" ,"header"}
+{pc:content  action="category" catid="$CATEGORYS[$top_parentid][catid]" moreinfo="1"num="5"}
+<div class="main">
+    <div class="dh10"></div>
+    <div class="w1000">
+        <div class="dh12"></div>
+        <div class="erleft">
+            <div class="type">
+                <div class="type_title"><img src="{IMG_PATH}/myimg/type_title.jpg" alt=""/></div>
+                <div class="type_bot">
+                    <ul>
+                        {loop $data $r}
+                        <li><a href="{$r[url]}">{$r[catname]}</a></li>
+                        {/loop}
+                    </ul>
+                </div>
+            </div>
+            <div class="er_con">
+                <p><img src="{IMG_PATH}/myimg/20130627100814_53164.jpg" alt=""/></p>
+            </div>
+        </div>
+        <div class="erright"style="border: none;r">
+            <div class="dh26"></div>
+            <div class="erright_top">
+                <div class="erright_title"><img src="{IMG_PATH}/myimg/pro_title.jpg" alt=""/></div>
+                <div class="cookies">您所在的位置: <a href="index.php">首页</a>&nbsp>&nbsp <a href="">{$CATEGORYS[$top_parentid][catname]}</a>&nbsp>&nbsp{$title}</div>
+            </div>
+            <div class="dh26"></div>
+            <div class="about">
+                    {$content}
+            </div>
+        </div>
+        {/pc}
+        <div style="clear:both"></div>
+    </div>
+</div>
+
+{template "content", "footer"}
